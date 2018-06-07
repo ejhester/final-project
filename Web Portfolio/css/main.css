@@ -1,0 +1,152 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+     border: 1px black solid;
+}
+img {
+	max-width:100%;
+}
+
+/******************************************
+/* TYPOGRAPHY
+/*******************************************/
+
+/* add type styles here */
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.site-header {
+
+}
+.site-content {
+position: relative;
+}
+
+.background{
+	height: 300px;
+}
+
+.hero {
+	overflow: hidden;
+	height: 500px;
+}
+
+.second {
+	background-image: url("https://i.pinimg.com/236x/b6/5d/5f/b65d5fdc873bd870ec5de651259d9885.jpg");
+	background-size: auto;
+}
+
+.third {
+	background-color: #36454f;
+}
+
+.hero img {
+	max-width: 1000px;
+	width: 100%;
+}
+
+.foreground{
+	width: 85%;
+	height: auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 460px;
+	left: 50%;
+	box-shadow: 0px -20px 40px rgba(0,0,0,0.7);
+	
+}
+
+.foreground div {
+	height: 333px;
+}
+
+.foregroundOne {
+	background:linear-gradient(to top, #36454f, rgba(0,0,0,0.0))
+}
+
+.foregroundTwo{
+	background-color: #36454f;
+
+}
+
+div .foregroundThree {
+background-color: #36454f;
+height: 100px;
+}
+
+.site-footer {
+
+}
+
+/******************************************
+/* GRID
+/*******************************************/
+
+.grid-row {
+	max-width:1300px;
+	margin:0 auto;
+}
+.grid-column {
+	float:left;
+	padding:0 32px;
+}
+.grid-whole         { width:100% }
+.grid-three-quarter { width: 75% }
+.grid-two-third     { width:66.67% }
+.grid-half          { width:50% }
+.grid-third         { width:33.33% }
+.grid-quarter       { width:25% }
+
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
